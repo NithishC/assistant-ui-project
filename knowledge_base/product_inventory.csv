@@ -1,0 +1,11 @@
+product_id,product_name,category,price,cost,margin,stock_quantity,supplier,launch_date,rating
+P001,UltraBook Pro 15,Laptops,1299.99,899.99,30.77,45,TechSupply Co,2023-03-15,4.5
+P002,Wireless Gaming Mouse,Accessories,79.99,35.00,56.25,150,GamerGear Ltd,2023-01-10,4.7
+P003,4K Monitor 27inch,Monitors,449.99,280.00,37.78,80,DisplayTech Inc,2023-02-20,4.3
+P004,Mechanical Keyboard RGB,Keyboards,159.99,85.00,46.88,120,KeyCraft Pro,2023-04-05,4.6
+P005,Noise-Canceling Headphones,Audio,299.99,180.00,40.00,65,AudioMax Corp,2023-01-30,4.8
+P006,Smartphone Pro Max,Phones,999.99,650.00,35.00,30,MobileFirst Ltd,2023-05-12,4.4
+P007,Tablet Ultra 12inch,Tablets,699.99,450.00,35.71,55,TabletTech Co,2023-03-25,4.2
+P008,Webcam 4K Ultra,Cameras,149.99,75.00,50.00,90,VisionTech Inc,2023-02-14,4.5
+P009,Bluetooth Speaker Pro,Audio,199.99,120.00,40.00,110,SoundWave Ltd,2023-04-18,4.6
+P010,Gaming Chair Elite,Furniture,399.99,250.00,37.50,25,ComfortZone Pro,2023-01-22,4.7

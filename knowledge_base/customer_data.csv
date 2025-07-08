@@ -1,0 +1,11 @@
+customer_id,company_name,industry,contact_person,email,phone,country,annual_revenue,contract_value,status
+C001,TechCorp Solutions,Software,John Smith,john.smith@techcorp.com,+1-555-0123,USA,5000000,125000,Active
+C002,Global Manufacturing Ltd,Manufacturing,Maria Garcia,maria.garcia@globalmfg.com,+1-555-0234,USA,15000000,250000,Active
+C003,HealthCare Plus,Healthcare,Dr. Sarah Wilson,s.wilson@healthcareplus.com,+44-20-7123-4567,UK,8000000,180000,Prospect
+C004,RetailMax Chain,Retail,Mike Johnson,mike.j@retailmax.com,+1-555-0345,USA,25000000,320000,Active
+C005,EduTech Academy,Education,Lisa Chen,l.chen@edutech.edu,+1-555-0456,Canada,2000000,85000,Active
+C006,Financial Services Pro,Finance,Robert Brown,r.brown@finpro.com,+1-555-0567,USA,50000000,500000,Negotiating
+C007,Green Energy Co,Energy,Emma Davis,e.davis@greenenergy.com,+49-30-1234-5678,Germany,12000000,200000,Active
+C008,LogiFlow Systems,Logistics,David Kim,d.kim@logiflow.com,+82-2-1234-5678,South Korea,8000000,150000,Prospect
+C009,CloudFirst Inc,Technology,Jennifer Lee,j.lee@cloudfirst.com,+1-555-0678,USA,30000000,400000,Active
+C010,AutoParts Direct,Automotive,Carlos Rodriguez,c.rodriguez@autoparts.com,+52-55-1234-5678,Mexico,18000000,275000,Active

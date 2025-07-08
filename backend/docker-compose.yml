@@ -7,10 +7,12 @@ services:
     ports:
       - "8000:8000"
     volumes:
-      - .:/app  # Mount current directory for hot reload
-      - ./tools:/app/tools  # Ensure tools directory is mounted
+      - ..:/app  # Mount parent directory to access knowledge_base and output
+      - ./tools:/app/backend/tools  # Ensure tools directory is mounted
+    working_dir: /app/backend
     environment:
       - PYTHONUNBUFFERED=1
+      - PYTHONPATH=/app
     env_file:
       - .env
     command: uvicorn main_structured:app --host 0.0.0.0 --port 8000 --reload

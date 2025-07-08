@@ -1,0 +1,11 @@
+employee_id,first_name,last_name,department,position,salary,hire_date,manager_id,performance_score,location
+E001,John,Doe,Engineering,Software Engineer,85000,2022-01-15,M001,4.2,New York
+E002,Jane,Smith,Marketing,Marketing Manager,75000,2021-03-22,M002,4.5,San Francisco
+E003,Bob,Johnson,Sales,Sales Representative,68000,2023-02-10,M003,3.8,Chicago
+E004,Alice,Brown,Engineering,Senior Developer,90000,2020-08-05,M001,4.7,Seattle
+E005,Charlie,Wilson,Finance,Financial Analyst,71000,2022-06-12,M004,4.1,Boston
+E006,Diana,Lee,Marketing,Content Specialist,65000,2023-01-08,M002,4.3,Los Angeles
+E007,Edward,Davis,Operations,Operations Manager,78000,2021-11-30,M005,4.4,Denver
+E008,Fiona,Garcia,Engineering,DevOps Engineer,82000,2022-09-18,M001,4.6,Austin
+E009,George,Miller,Sales,Account Executive,72000,2023-04-25,M003,3.9,Miami
+E010,Helen,Taylor,Design,UX Designer,74000,2022-12-03,M006,4.8,Portland

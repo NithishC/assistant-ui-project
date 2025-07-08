@@ -85,7 +85,13 @@ class FileSystemTool(BaseTool):
         operation = kwargs.get("operation")
         file_path = kwargs.get("file_path")
         
-        # Note: Will log success/failure after operation completes
+        # Log operation attempt
+        operation_logger.log_operation(
+            operation=operation,
+            file_path=file_path or kwargs.get("directory", "N/A"),
+            success=False,  # Will update on success
+            details={"parameters": kwargs}
+        )
         
         try:
             if operation == "list":
