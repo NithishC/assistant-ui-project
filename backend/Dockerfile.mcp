@@ -1,0 +1,30 @@
+# MCP Server Dockerfile
+FROM python:3.11-slim
+
+WORKDIR /app
+
+# Upgrade pip first to handle newer package requirements
+RUN pip install --upgrade pip
+
+# Copy MCP-specific requirements and install dependencies
+COPY requirements-mcp.txt .
+RUN pip install --no-cache-dir -r requirements-mcp.txt
+
+# Copy MCP server code
+COPY mcp_server/ ./mcp_server/
+COPY tools/ ./tools/
+COPY security/ ./security/
+COPY run_mcp_server.py .
+
+# Copy environment file
+COPY .env .
+
+# Copy knowledge_base and output directories
+COPY knowledge_base/ ./knowledge_base/
+COPY output/ ./output/
+
+# Expose MCP server port
+EXPOSE 8001
+
+# Run MCP server
+CMD ["python", "run_mcp_server.py", "--host", "0.0.0.0", "--port", "8001"]

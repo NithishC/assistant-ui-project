@@ -1,0 +1,18 @@
+# Base requirements (existing functionality)
+fastapi==0.111.0
+uvicorn[standard]==0.30.1
+python-dotenv==1.0.1
+openai==1.35.3
+httpx==0.27.0
+python-multipart==0.0.9
+pydantic==2.7.4
+typing-extensions==4.12.2
+beautifulsoup4==4.12.3
+markdownify==0.12.1
+lxml==5.1.0
+
+# MCP Server Dependencies
+mcp
+anyio
+jsonschema
+sse-starlette
